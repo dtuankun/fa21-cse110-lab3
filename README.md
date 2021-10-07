@@ -1,4 +1,4 @@
-# Lab2
+# fa21-cse110-lab3
 
 https://dtuankun.github.io/fa21-cse110-lab3/
 
