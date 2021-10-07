@@ -124,8 +124,23 @@
         </article>
       </section>
 
-      <h2>Meeting Summary</h2>
-      <section id="what-is-pomodoro-timer">
+      <div
+        style="
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: var(--clr-cyan);
+          height: 5px;
+          width: 80px;
+          filter: brightness(90%);
+        "
+      ></div>
+
+      <h2 class="summary_heading">Meeting Summary</h2>
+      <section
+        class="sum1 summary layout flow-content"
+        id="what-is-pomodoro-timer"
+      >
         <h3>What is pomodoro timer?</h3>
         <blockquote
           cite="https://dev.to/manushifva/learn-coding-with-pomodoro-technique-4hdl"
@@ -159,11 +174,13 @@
           <figcaption>Pomodoro Technique</figcaption>
         </figure>
       </section>
-      <hr />
 
-      <section id="what-should-pomodoro-timer-have">
+      <section
+        class="sum2 summary layout flow-content"
+        id="what-should-pomodoro-timer-have"
+      >
         <h3>What should pomodoro timer have?</h3>
-        <ul>
+        <ul class="flow-content">
           <li>
             <p>
               <b>Timer</b> - Pomodoro timer should have a timer that counts down
@@ -197,22 +214,25 @@
             <source src="./assets/alarm.wav" type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
-          <figcaption>Alarm Audio</figcaption>
         </figure>
 
-        <p>Here is also a comment from some of the attendance:</p>
-        <details>
+        <p style="margin-top: 2rem">
+          <b>Here is also a comment from some of the attendance:</b>
+        </p>
+        <details class="flow-content">
           <summary>Jack Storm</summary>
-          <p>I love it, it brings a sense of alert to us.</p>
+          <blockquote>I love it, it brings a sense of alert to us.</blockquote>
         </details>
-        <details>
+        <details class="flow-content">
           <summary>Sharon Carter</summary>
-          <p>Oh yeah, this is awesome</p>
+          <blockquote>Oh yeah, this is awesome</blockquote>
         </details>
       </section>
-      <hr />
 
-      <section id="pomodoro-timer-reference">
+      <section
+        class="sum3 summary layout flow-content"
+        id="pomodoro-timer-reference"
+      >
         <h3>Pomodoro Timer Reference</h3>
         <p>
           We found some of the Pomodoro Timer reference from the following
@@ -230,10 +250,9 @@
           <figcaption>Paymo Pomodoro Timer</figcaption>
         </figure>
       </section>
-      <hr />
 
-      <section>
-        <h2>Meeting's Recording</h2>
+      <section class="flow-content summary layout record">
+        <h3>Meeting's Whiteboard</h3>
         <figure>
           <img
             src="https://asset.kompas.com/crops/3LF8B1fEMXFg53Er91NE2FCYwEc=/92x54:1147x758/750x500/data/photo/2021/06/10/60c1af77a23b5.png"
@@ -241,6 +260,7 @@
           />
           <figcaption>Meeting Whiteboard</figcaption>
         </figure>
+        <h3>Meeting's Recording</h3>
         <audio controls>
           <source src="./assets/alarm.wav" type="audio/wav" />
           Your browser does not support the audio element.
