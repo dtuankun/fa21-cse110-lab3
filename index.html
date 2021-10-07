@@ -15,6 +15,10 @@
   <body>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@700&display=swap');
+      .attendance-list li[data-img='2'] {
+        text-decoration: underline;
+        grid-column: 0;
+      }
     </style>
 
     <!-- Header Part -->
@@ -33,21 +37,59 @@
         </p>
       </div>
       <span class="deco"></span>
-
+      <button class="popup">Hover & Click me!</button>
       <div class="transform"></div>
     </header>
-    <hr />
 
     <main>
       <!-- Attendance List -->
-      <h2>Attendance List</h2>
-      <ol>
-        <li>Jack Storm</li>
-        <li>Jim Carty</li>
-        <li>Sharon Carter</li>
-        <li>Bess Moss</li>
-      </ol>
-      <hr />
+      <section class="layout" id="attendance">
+        <h2>Attendance List</h2>
+        <ol class="attendance-list">
+          <li data-img="1">
+            <img
+              src="https://i.pravatar.cc/50?img=1"
+              height="50"
+              width="50"
+              alt="Photo"
+            /><span>Sharon Carter</span>
+          </li>
+
+          <li data-img="2" style="color: red">
+            <img
+              src="https://i.pravatar.cc/50?img=2"
+              height="50"
+              width="50"
+              alt="Photo"
+            /><span>Jim Carty</span>
+          </li>
+          <li>
+            <img
+              src="https://i.pravatar.cc/50?img=3"
+              height="50"
+              width="50"
+              alt="Photo"
+            /><span>Jack Storm</span>
+          </li>
+          <li>
+            <img
+              src="https://i.pravatar.cc/50?img=4"
+              height="50"
+              width="50"
+              alt="Photo"
+            /><span>Bess Moss</span>
+          </li>
+          <li>
+            <img
+              src="https://i.pravatar.cc/50?img=5"
+              height="50"
+              width="50"
+              alt="Photo"
+            /><span>Eve Addams</span>
+          </li>
+          <p class="hidden">I'm hidden</p>
+        </ol>
+      </section>
 
       <!-- Agenda -->
       <h2>Meetings Agenda:</h2>
